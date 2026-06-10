@@ -30,14 +30,25 @@ con estos indices podemos acceder al valor del elemento y tambien podremos modif
 - por indice (posicion)
 - por rango (slicing)
 ```python
-frutas:list[str]=[🍎,🍊,🍇,🍒]
+frutas:list[str]=["🍎","🍊","🍇","🍒"]
 # posicion o indice
 # acceder al tercer elemento
 print(frutas[2])
 # acceder por rango
-Python: Puedes generar una secuencia usando la función range() para bucles. Por ejemplo, range(0, 10) genera números del 
- al 
+Python: Puedes generar una secuencia usando la función print(frutas[-3]) para bucles. Por ejemplo, range(0, 10) genera números del 
 
+# modificar
+frutas[3]="naranja"
+- acceder y modificar por rango (slicing)
+```python
+vocales:str=['a','e','i','o','u']
+# acceder a elemento por slicing
+# esta tecnica nos permite accede a mas de un elemento en una sola linea de codigo
+vocales[0:3]
+## reemplazar elementos por slicing 
+vocales[0:3]=['A','E','I']
+
+```
 
 
 ## Diccionarios
