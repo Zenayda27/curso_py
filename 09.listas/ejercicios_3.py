@@ -24,14 +24,12 @@ vehiculos = ["toyota", "nissan", "datsun", "daewod", "simo marck", "mazda", "hon
 # Eliminar el 5to elemento (posición 4)
 vehiculos.pop(4)
 
-# Agregar Mitsubishi en su lugar
 vehiculos.insert(4, "mitsubishi")
 
 # Buscar Nissan y mostrar su posición
 if "nissan" in vehiculos:
     print("Nissan se encuentra en la posición:", vehiculos.index("nissan"))
 
-# Verificar si Honda existe
 if "honda" in vehiculos:
     print("Honda sí existe en la lista.")
 else:
@@ -39,3 +37,5 @@ else:
 
 # Mostrar lista final
 print("Lista final de vehículos:", vehiculos)
+
+
