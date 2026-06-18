@@ -76,3 +76,9 @@ el_eliminado=tienda.pop("ruc")
 # para limpiar todo el diccionario
 tienda.clear()
 ```
+## recorre un diccionario (tarea)🏡
+
+mi_diccionario = {"a": 1, "b": 2, "c": 3}
+
+for clave in mi_diccionario:
+    print(clave)
